@@ -10,8 +10,7 @@ namespace DivineSpark.Models
     public class PostSala
     {
         public int Id { get; set; }
-        public int Posicao { get; set; }
-
+        
         [ForeignKey("PostMonstro")]
         public int Monstro_id { get; set; }
         public PostMonstro PostMonstro { get; set; }

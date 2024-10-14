@@ -16,9 +16,8 @@ namespace DivineSpark.Models
         public int Forca { get; set; }
         public int agilidade { get; set; }
         public int nivel { get; set; }
-        [ForeignKey("PostSala")]
-        public int Posicao { get; set; }
-        public PostSala PostSala { get; set; }
+        
+        
 
     }
 }
